@@ -1,0 +1,16 @@
+Answer  01:
+Tên của layout files là activity_main.xml
+
+Answer 02:
+
+Tên của chuỗi nguồn chỉ định tên của application là:
+
+applicationId
+
+Answer 03:
+
+AVD Manager
+
+Answer 04:
+
+Info
