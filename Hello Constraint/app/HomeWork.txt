@@ -1,0 +1,9 @@
+Bai tap ve nha
+
+Câu 1: android:layout_marginTop="8dp", android:layout_marginBottom="8dp"
+
+Câu 2: app:layout_constraintLeft_toLeftOf="parent"
+
+Câu 3:public void callMethod(View view)
+
+Câu 4: Sử dụng tham số View truyên vào đôi sang kiêu button rôi thiết lập Background

@@ -4,55 +4,53 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     >
+
     <Button
         android:id="@+id/button_toast"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
         android:background="@color/design_default_color_secondary_variant"
         android:onClick="showToast"
         android:text="@string/toast"
-        android:textColor="#000000"
-        />
-
+        android:textColor="#000000" />
 
 
     <TextView
         android:id="@+id/show_count"
-        android:layout_below="@+id/button_toast"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FFFF00"
+        android:layout_below="@+id/button_toast"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center_vertical"
         android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+
+        android:background="#FFFF00"
         android:gravity="center"
         android:text="@string/_0"
-
         android:textAlignment="center"
-        android:layout_gravity="center_vertical"
         android:textColor="#0B73C6"
         android:textSize="160sp"
-        android:textStyle="bold"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        />
+        android:textStyle="bold" />
+
     <Button
         android:id="@+id/button_count"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart = "8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginTop="8dp"
-        android:onClick="countUp"
         android:layout_below="@+id/show_count"
-        android:text="@string/count"
         android:layout_centerHorizontal="true"
-        android:textColor="#000000"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
         android:background="@color/design_default_color_secondary_variant"
-        />
+        android:onClick="countUp"
+        android:text="@string/count"
+        android:textColor="#000000" />
 
 </RelativeLayout>

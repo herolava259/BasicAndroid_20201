@@ -62,6 +62,7 @@
         android:background="@color/teal_700"
         android:text="@string/zero"
         android:textColor="#FFFFFF"
+        android:onClick="resetZero"
         app:layout_constraintEnd_toStartOf="@+id/show_count"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
