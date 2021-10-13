@@ -1,0 +1,3 @@
+Ques1: One view or one view group
+Ques2: android:orientation="horizontal"
+Ques3: android:layout_width="match_parent"
