@@ -6,7 +6,7 @@ android {
     compileSdk 30
 
     defaultConfig {
-        applicationId "com.example.twoactivities"
+        applicationId "com.example.caculator_version_01"
         minSdk 21
         targetSdk 30
         versionCode 1

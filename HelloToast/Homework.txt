@@ -1,0 +1,8 @@
+Question 01: The second Activity is added as a Java class, the XML layout file is created, and the AndroidManifest.xml file is changed to declare a second Activity.
+Question 02:
+The Back button no longer works in the second Activity to send the user back to the main Activity.
+Question 03: new Intent(Context context, Class<?> class)
+
+Question 04:As an Intent extra
+
+Question 05: Update the TextView for the count.
