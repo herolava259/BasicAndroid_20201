@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ClassAssignment_week06</string>
+    <string name="mssv">MSSV</string>
+    <string name="name">Name</string>
+    <string name="birth">Birth</string>
+    <string name="phonenb">Phone Number</string>
+    <string name="email">Email</string>
+</resources>
