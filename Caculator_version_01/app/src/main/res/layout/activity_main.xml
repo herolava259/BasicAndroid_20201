@@ -95,6 +95,7 @@
             android:layout_margin="2sp"
             android:layout_weight="1"
 
+            android:background="@drawable/button_equal"
             android:backgroundTint="#00BCD4"
             android:fontFamily="monospace"
             android:padding="16dp"
@@ -207,8 +208,8 @@
             android:layout_weight="1"
             android:background="@drawable/button_background"
             android:padding="16dp"
-            android:text="-"
-            android:textColor="@color/black"/>
+            android:text="--"
+            android:textColor="@color/black" />
     </LinearLayout>
 
     <LinearLayout
@@ -339,9 +340,9 @@
             android:layout_margin="2sp"
             android:layout_weight="1"
             android:background="@drawable/button_background"
-            android:textColor="@color/black"
             android:padding="16dp"
-            android:text="%" />
+            android:text="%"
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/button26"
@@ -371,11 +372,12 @@
             android:layout_height="wrap_content"
             android:layout_margin="2sp"
             android:layout_weight="1"
-            android:src="@drawable/ic_launcher_cancel_foreground"
             android:background="@drawable/button_background"
+            android:padding="15dp"
 
-            android:padding="16dp"
-            android:text="Button" />
+            android:src="@drawable/ic_launcher_cancel_foreground"
+            android:text="Button"
+            tools:ignore="SpeakableTextPresentCheck" />
     </LinearLayout>
 
     <ImageButton
@@ -447,7 +449,7 @@
             android:background="@android:color/transparent"
             android:textColor="@android:color/black"
             android:text="MC"
-            android:textSize="10sp" />
+            android:textSize="11sp" />
 
         <Button
             android:id="@+id/button18"
@@ -457,7 +459,7 @@
             android:text="MR"
             android:background="@android:color/transparent"
             android:textColor="@android:color/black"
-            android:textSize="10sp" />
+            android:textSize="11sp" />
 
         <Button
             android:id="@+id/button30"
@@ -467,7 +469,7 @@
             android:text="M+"
             android:background="@android:color/transparent"
             android:textColor="@android:color/black"
-            android:textSize="10sp" />
+            android:textSize="11sp" />
 
         <Button
             android:id="@+id/button31"
@@ -477,7 +479,7 @@
             android:text="M-"
             android:background="@android:color/transparent"
             android:textColor="@android:color/black"
-            android:textSize="10sp" />
+            android:textSize="11sp" />
 
         <Button
             android:id="@+id/button32"
@@ -487,7 +489,7 @@
             android:text="MS"
             android:background="@android:color/transparent"
             android:textColor="@android:color/black"
-            android:textSize="10sp" />
+            android:textSize="11sp" />
 
         <Button
             android:id="@+id/button33"
@@ -499,7 +501,7 @@
             android:text="w^"
             android:background="@android:color/transparent"
             android:textColor="@android:color/black"
-            android:textSize="10sp" />
+            android:textSize="11sp" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
