@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">UnitConversionApp</string>
+    <string name="title_text">Convert Measure</string>
+    <string name="currency_text">Currency</string>
+    <string name="length_text">Length</string>
+    <string name="volume_text">Volume</string>
+    <string name="mass_text">Mass</string>
+    <string name="area_text">Area</string>
+    <string name="speed_text">Speed</string>
+    <string name="title_convert">Title</string>
+    <string name="description">I want to convert:</string>
+    <string name="convert_hint">Enter convert amount</string>
+    <string name="to_title">To:</string>
+    <string name="covert_btn">Convert</string>
+    <string name="init_result">0.0 (lb)</string>
+</resources>
