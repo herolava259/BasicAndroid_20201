@@ -81,7 +81,7 @@ public class Caculator{
     }
 
     private String compute(){
-        if(cache.isEmpty())
+        if(cache.isEmpty());
         return "";
     }
     private String computeUnary(){
@@ -115,6 +115,8 @@ public class Caculator{
     public String getTopTextView() {
         return buffer_top;
     }
+
+
     private double computeBinaryOperator(String first, String second, String exp){
         double x = Double.parseDouble(first);
         double y = Double.parseDouble(second);
