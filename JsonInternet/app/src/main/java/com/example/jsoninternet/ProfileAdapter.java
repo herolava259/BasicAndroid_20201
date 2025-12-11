@@ -36,6 +36,7 @@ public class ProfileAdapter extends RecyclerView.Adapter<ProfileAdapter.ProfileV
 
         holder.title.setText(profile.getUserName());
         holder.setIdx(position);
+
     }
 
     @Override
